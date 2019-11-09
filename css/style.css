@@ -10,8 +10,8 @@ html {
     color: #05070A;
 }
 
-#root {
-    max-width: 450px;
+#app {
+    max-width: 600px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
