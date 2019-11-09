@@ -7,7 +7,7 @@
 html {
     font-family: sans-serif;
     font-size: 1rem;
-    color: #444;
+    color: #05070A;
 }
 
 #root {
@@ -33,10 +33,15 @@ button {
 
 button {
     cursor: pointer;
-    background: #007bff;
+    background: #8a50cc;
     color: white;
-    border: 2px solid #007bff;
+    border: 2px solid #8a50cc;
     margin: 0 .5rem;
+}
+
+button:hover {
+    background: #ac63ff;
+    border: 2px solid #ac63ff;
 }
 
 [type="text"] {
@@ -46,7 +51,7 @@ button {
 [type="text"]:active,
 [type="text"]:focus {
     outline: 0;
-    border: 2px solid #007bff;
+    border: 2px solid #ac63ff;
 }
 
 [type="checkbox"] {
@@ -81,11 +86,11 @@ li span {
 }
 
 li span:hover {
-    background: rgba(179, 215, 255, 0.52);
+    background: rgba(172, 99, 255, 0.1);
 }
 
 li span:focus {
     outline: 0;
-    border: 2px solid #007bff;
-    background: rgba(179, 207, 255, 0.52)
+    border: 2px solid #ac63ff;
+    background: rgba(172, 99, 255, 0.1);
 }
